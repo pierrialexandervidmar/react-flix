@@ -1,9 +1,12 @@
+import styles from './Header.module.css'
+
 function Header() {
   return (
-    <header>
+    <header className={styles.header}>
       <span>React Flix</span>
       <nav>
-        
+        <a href="#">Home</a>
+        <a href="#">Assistir</a>
       </nav>
     </header>
   );
